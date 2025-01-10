@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quang Minh's Profile</title>
     <link rel="stylesheet" href="aboutme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <header>
         <nav>
-            <section><a href="#about">ABOUT ME</a></section>
-            <section><a href="#skills">MY SKILLS</a></section>
-            <section><a href="#hobbies">MY HOBBIES</a></section>
-                
+            <a href="#about">ABOUT ME</a>
+            <a href="#skills">MY SKILLS</a>
+            <a href="#hobbies">MY HOBBIES</a>
+            <div class="theme-switch">
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
         </nav>
     </header>
     <main>
@@ -42,7 +46,7 @@
             <ul>
                 <li>
                     <i class="fas fa-code"></i>
-                    Programming languages: Python, C
+                    Programming languages: Python, C, Javascript
                 </li>
                 <li>
                     <i class="fas fa-globe"></i>
@@ -66,5 +70,6 @@
     <footer>
         <p> Quang Minh</p>
     </footer>
+   
 </body>
 </html>
