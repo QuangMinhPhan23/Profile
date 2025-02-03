@@ -1,2 +1,1 @@
-# Profile webiste page
-## Built by HTML, CSS and Javascript
+Profile webiste page built by HTML, CSS and Javascript
