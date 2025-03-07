@@ -27,6 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
         currentIndex = (currentIndex + 1) % 19;
     }
 
-    setInterval(changeBackgroundImage, 4000);
+    setInterval(changeBackgroundImage, 10000);
     changeBackgroundImage();
 });
